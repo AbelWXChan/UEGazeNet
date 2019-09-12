@@ -1,3 +1,13 @@
 metadata_version: 1
 name: UNGazeNet
+description: A tensorflow based gaze-tracking convolutional neural network model.
+tags:
+- gaze tracking
+authors:
+- name: weixing chen
+  affiliations:
+  - name: Northeastern University, China (China)
+- name: xiaoyu cui
+  affiliations:
+  - name: Northeastern University, China (China)
 corresponding_contributor: {}
