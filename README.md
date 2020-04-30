@@ -1,7 +1,7 @@
 # Tensorflow-UEGazeNet
 A tensorflow based gaze-tracking convolutional neural network model.
 
-！[ops](https://github.com/WissingChen/UEGazeNet/raw/master/2uksy-s7pjf-min.gif)
+！[ops](./2uksy-s7pjf-min.gif)
 
 # Files
 data_source.py: The data source of UnityEyes.
