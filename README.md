@@ -10,7 +10,7 @@ UT_mutliviews.py: The data source of UT multiviews.
 
 MPIIGaze.py: The data source of MPIIGaze.
 
-make_gestures_dataset.py: Make the gestures dataset, the image size is 30 × 30.
+make_gestures_dataset.py: Make the gestures dataset, the image size is 32 × 32.
 
 draw_gesture.py: Track gaze and draw the gaze gestrue.
 
@@ -23,6 +23,8 @@ UE.py: Train the model with UnityEyes.
 UT.py: Train the model with UT multiviews.
 
 utils.py: Some functions we used.
+
+in matedata, the file "data.7z" is GTgesture dataset, it is a .npy file with the shape [102000, 1025]. And you should divide 1 element as label from axis 1(the 1025), then reshape the rest to [102000, 32, 32].
 
 # Files directory
 ```
