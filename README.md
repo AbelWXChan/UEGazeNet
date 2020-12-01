@@ -24,7 +24,7 @@ UT.py: Train the model with UT multiviews.
 
 utils.py: Some functions we used.
 
-in matedata, the file "data.7z" is GTgesture dataset, it is a .npy file with the shape [102000, 1025]. And you should divide 1 element as label from axis 1(the 1025), then reshape the rest to [102000, 32, 32].
+in matedata, the file "data.7z" is GTgesture dataset, it is a .npy file with the shape [102000, 1025]. And you should divide 1 element as label from axis 1(the 1025), then reshape the rest to [102000, 32, 32]. Or you can get the raw data from here:https://drive.google.com/file/d/1A3FbzmC1GpjrJjvSkiS47my7gYUX8DEA/view?usp=sharing
 
 # Files directory
 ```
